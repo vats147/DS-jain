@@ -6,7 +6,7 @@
 
 */
 #include<stdio.h>
-#include <string.h>
+
 int main(){
 
        const float pi=3.14;

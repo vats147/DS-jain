@@ -11,7 +11,9 @@ int main(){
 
        char name[] ="Vatsal Mangukiya";
        char address[] ="222 Nilkanth apartment, K.R. Road, Bangluru, Karnataka-395010";
-       char city[]="bangluru";;
+       char city[]="bangluru";
+
+       
 
        printf("Name is :%s \n",name);
        printf("Address is :%s \n",address);

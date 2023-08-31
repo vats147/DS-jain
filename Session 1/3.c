@@ -18,6 +18,6 @@ int main(){
 
        // Assume celcius is 10
        celcius=10;
-       printf("%f convert into Ferenheit= %f\n" ,celcius,(celcius));
+       printf("%f convert into Ferenheit= %f\n" ,celcius,convert_faherenheit(celcius));
        
 }

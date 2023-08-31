@@ -16,8 +16,10 @@ int main(){
 
        float celcius;
 
-       // Assume celcius is 10
-       celcius=10;
+      
+       printf("Enter celcius");
+       scanf("%f",&celcius);
+       
        printf("%f convert into Ferenheit= %f\n" ,celcius,convert_faherenheit(celcius));
        
 }

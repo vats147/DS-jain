@@ -16,9 +16,13 @@ b.	Without Using a temporary variable
 int main(){
 
       int num1,num2,temp;
-      num1=10;
-      num2=20;
-      
+
+       printf("Enter number1");
+       scanf("%d",&num1);
+
+       printf("Enter Number 2");
+       scanf("%d",&num2);
+
       printf("NUmber before swap\n");
       printf("Num 1: %d\n", num1);
       printf("Num 2: %d\n",num2);

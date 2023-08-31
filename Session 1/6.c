@@ -14,9 +14,12 @@ int main(){
       int p,n;
       float r;
 
-       p=10000;
-       n=5;
-       r=6;
+       printf("Enter the principal amount");
+       scanf("%d",&p);
+       printf("Enter the number of  months");
+       scanf("%d",&n);
+       printf("Enter Rate of interest");
+       scanf("%f",&r);
 
        float Simple_Interst;
        Simple_Interst=p*r*n/100;   

@@ -13,8 +13,8 @@ int main(){
        float r;
        float area,circumference;
 
-       // Here we assume the radius is 5
-       r=5;
+       printf("Enter the radius of circle");
+       scanf("%f",&r);
 
        // Area of circle
        area=pi*r*r;

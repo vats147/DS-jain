@@ -103,14 +103,14 @@ int largest(int num1,int num2,int num3)
 }
 int main(){
 
-       float number1,number2,number3;
+       int number1,number2,number3;
 
        printf("Enter first number:");
-       scanf("%f",&number1);
+       scanf("%d",&number1);
        printf("Enter second number:");
-       scanf("%f",&number2);
+       scanf("%d",&number2);
        printf("Enter thrid number:");
-       scanf("%f",&number3);
+       scanf("%d",&number3);
 
        largest(number1,number2,number3);
 

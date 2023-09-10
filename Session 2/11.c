@@ -23,7 +23,7 @@ int main(){
        pmonth=month;
        pyear=year;
 
-       if(year%4==0) //leap year
+       if((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) //leap year
        {
               if(month==1||month==3||month==5||month==7||month==8||month==10||month==12)
               {

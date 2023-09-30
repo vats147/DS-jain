@@ -1,7 +1,7 @@
 /*
        remain
        Author: Vatsal Mangukiya
-       Date: 15th sept,2023
+       Date: 30th sept,2023
 
        Question:27.	C program to generate the patterns. a)1	              b)	1
                                                         1	2	              2	2

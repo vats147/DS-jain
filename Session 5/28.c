@@ -1,7 +1,7 @@
 /*
        
        Author: Vatsal Mangukiya
-       Date: 15th sept,2023
+       Date: 30th sept,2023
 
        Question:28.	C program to generate the pattern 
               a)1	2	3	4	b)1

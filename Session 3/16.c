@@ -6,23 +6,10 @@
 
 */
 #include<stdio.h>
-
-int main(){
-
-       int number;
-       int temp;
-
-      
-       int rem;
-       int reverse=0;
-
-       printf("Please Enter number :");
-       scanf("%d",&number);
-
+int reverse(int number)
+{
+       int temp,rem,reverse;
        temp=number;
-      
-       printf("\n----------------------\n");
-
        while(temp!=0)
        {
               rem=temp%10;
@@ -31,7 +18,18 @@ int main(){
               temp=temp/10;
 
        }
-       printf("Reverse number %d",reverse);
+       return reverse;
+}
+int main(){
+
+       int number;
+       
+
+       printf("Please Enter number :");
+       scanf("%d",&number);
+
+
+       printf("Reverse number %d",reverse(number));
        
        
 }

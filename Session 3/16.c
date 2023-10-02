@@ -8,7 +8,7 @@
 #include<stdio.h>
 int reverse(int number)
 {
-       int temp,rem,reverse;
+       int temp,rem,reverse=0;
        temp=number;
        while(temp!=0)
        {
